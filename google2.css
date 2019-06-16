@@ -1,0 +1,151 @@
+html{
+  margin: 0px;
+  font-family: arial, sans-serif;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+}
+#search{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 80px;
+}
+div{
+  display: block;
+}
+img{
+  margin-left: 35px;
+}
+#searchbox{
+   display: flex;
+   align-items: center;
+   border: 1px solid #dfe1e5;
+   margin-left: 25px;
+   height: 15px;
+   border-radius: 40px;
+   height: 45px;
+  width: 640px
+}
+#searchbox input{
+  border: none; <!-- granica pola-->
+  margin-left: 30px;
+  font-size: 17px;
+  width: 100%; <!-- w ilu % pasek mozna wypelnic danymi-->
+  outline: 0;  <!-- otoczka pola wpisywania textu-->
+}
+a{
+  margin: 10px;
+}
+#searchbox a img{
+vertical-align: middle;
+height: 24px;
+width: 24px;
+margin-left: auto;
+}
+#icons{
+display: flex;
+align-items: center;
+margin-left: auto;
+margin-right: 25px;
+justify-content: center;
+}
+#submit{
+  margin-left: 25px;
+}
+#nav{
+  display: flex; <!--?? co to znaczy, w lini sie ustawiaja? -->
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 150px; <!-- pozycja od lewego marginesu -->
+  width: 40px;
+  height: 30px;
+  width: 642px;
+  flex-direction: row;
+}
+#nav a{
+  font-size: 13px;
+  text-decoration: none;
+  margin: 0;
+  padding: 15px;
+  color: #777;
+}
+#left a:first-child{
+  color: #1a73e8;
+  border-bottom: 2px solid #1a73e8;
+  font-weight: bold;
+  padding-bottom: 13px;
+}
+main{
+  width: 640px;
+  margin-left: 150px;
+}
+#results_stats{
+  font-size: 13px;
+  color:  #bfbfbf;
+  line-height: normal;
+  padding-left: 10px;
+}
+#result{
+  padding: 10px;
+  line-height: 1.54;
+}
+#result h3{
+  color: blue;
+  margin: 1px;
+  padding: 0px;
+}
+#result cite{
+  color: green;
+}
+#result p{
+  color: #bfbfbf;
+  font-size: small;
+  padding: 1px;
+  margin: 0px;
+}
+.main_result{
+  padding-left: 10px;
+  border-style: solid ;
+  border-color: #cccccc;
+  border-radius: 10px;
+  border-width: thin;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.main_result h3{
+  color: blue;
+}
+#search-page{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  margin-top: 25px;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+.batony{
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  padding-top: 5px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  margin-left: 45px;
+}
+footer{
+  width: 100%;
+  background: #cccccc;
+}
